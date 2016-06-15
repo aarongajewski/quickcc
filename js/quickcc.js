@@ -47,7 +47,6 @@ function validateData() {
     }
     else {
         $("#colorText1").addClass("invalid");
-        //$("#colorText1").prop("aria-invalid", "true");
         return false;
     }
     
