@@ -1,0 +1,24 @@
+<!doctype html>
+
+<!-- CSS -->
+<link rel="stylesheet" href="../../css/materialize.min.css">
+<link rel="stylesheet" href="../../css/main.css">
+
+<!--Import Google Font-->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<!-- Compiled and minified JavaScript -->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/materialize.min.js"></script>
+<script src="../../js/quickcc.js"></script>
+
+<div id="mainPopup">
+    <div id="colorContainer" class="center-block">
+        <input placeholder="Enter Hex or RGB" id="colorText1" type="text" class="validate">
+        <label for="colorText1" data-error="Color must be valid HEX or RGB"></label>
+        <input disabled value="#000000" id="colorText2" type="text" class="validate invisible">
+    </div>
+    <div class="center-align center-block">
+        <button id="convertButton" class="waves-effect waves-light light-blue darken-1 btn">Convert</button>
+    </div>
+</div>
